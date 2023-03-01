@@ -1,14 +1,25 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rubik:wght@300;400;500&display=swap');
+
+body{
+    background-color: hsl(226, 43%, 10%);  
     padding: 30px;
-    background-color: hsl(226, 43%, 10%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     display: grid;
     grid-template-columns: auto auto;
     /* gap: 10px; */
     padding: 10px;
     text-align: center;
+    width: 70%;
+    height: 60%;
+    
 }
 
 .header{
@@ -22,20 +33,43 @@
 .main{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 15px;
-    padding: 10px;
-    text-align: center;
-}
-
-.main div{
-    border: 1px solid;
-    text-align: center;
+    gap: 30px;
+    padding-left: 30px;
 }
 
 .work{
     border-radius: 5%;
     background-color: hsl(15, 100%, 70%);
+    position: relative;
+    opacity: 0.95;
 }
+
+.work img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.work-text{
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0;
+    color: white;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid hsl(235, 46%, 20%) ;
+    text-align: left;
+}
+
+.work-text h3, .work-text h1, .work-text p{
+    margin-left: 20px;
+}
+
+.work-text h1{
+   font-size: 45px;
+   font-weight: 400;
+}
+
 
 .play{
     border-radius: 5%;

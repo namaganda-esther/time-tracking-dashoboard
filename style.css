@@ -1,0 +1,73 @@
+*{
+    padding: 30px;
+    background-color: hsl(226, 43%, 10%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* gap: 10px; */
+    padding: 10px;
+    text-align: center;
+}
+
+.header{
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main div{
+    border: 1px solid;
+    text-align: center;
+}
+
+.work{
+    border-radius: 5%;
+    background-color: hsl(15, 100%, 70%);
+}
+
+.play{
+    border-radius: 5%;
+    background-color: hsl(195, 74%, 62%);
+}
+
+.study{
+    border-radius: 5%;
+    background-color: hsl(348, 100%, 68%);
+}
+
+.exercise{
+    border-radius: 5%;
+    background-color: hsl(145, 58%, 55%);
+}
+
+.social{
+    border-radius: 5%;
+    background-color: hsl(264, 64%, 52%);
+}
+
+.self-care{
+    border-radius: 5%;
+    background-color: hsl(43, 84%, 65%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

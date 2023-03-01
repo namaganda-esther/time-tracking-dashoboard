@@ -2,7 +2,6 @@
 
 body{
     background-color: hsl(226, 43%, 10%);  
-    padding: 30px;
     font-family: 'Inter', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
@@ -12,36 +11,57 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
-    display: grid;
+    display: flex;
     grid-template-columns: auto auto;
-    /* gap: 10px; */
     padding: 10px;
-    text-align: center;
-    width: 70%;
+    /* text-align: center; */
+    width: 80%;
     height: 60%;
     
 }
 
 .header{
     border: 1px solid;
-    text-align: center;
-    padding: 10px;
     border-radius: 5%;
+    width: 25%;
 }
 
+.profile{
+    background-color: hsl(246, 80%, 60%);
+    height: 66%;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.profile img{
+    width: 25%;
+}
+
+.profile p{
+    font-weight: 300;
+    opacity: 0.4;
+}
+.profile h1{
+    font-size: 40px;
+    font-weight: 400;
+}
 
 .main{
+    width: 75%;
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 30px;
     padding-left: 30px;
 }
 
+/* style for each card/box */
+
 .work{
     border-radius: 5%;
     background-color: hsl(15, 100%, 70%);
     position: relative;
-    opacity: 0.95;
 }
 
 .work img{
@@ -71,29 +91,174 @@ body{
 }
 
 
+
+
 .play{
     border-radius: 5%;
     background-color: hsl(195, 74%, 62%);
+    position: relative;
 }
+
+.play img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.play-text{
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0;
+    color: white;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid hsl(235, 46%, 20%) ;
+    text-align: left;
+}
+
+.play-text h3, .play-text h1, .play-text p{
+    margin-left: 20px;
+}
+
+.play-text h1{
+   font-size: 45px;
+   font-weight: 400;
+}
+
+
 
 .study{
     border-radius: 5%;
     background-color: hsl(348, 100%, 68%);
+    position: relative;
 }
+
+.study img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.study-text{
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0;
+    color: white;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid hsl(235, 46%, 20%) ;
+    text-align: left;
+}
+
+.study-text h3, .study-text h1, .study-text p{
+    margin-left: 20px;
+}
+
+.study-text h1{
+   font-size: 45px;
+   font-weight: 400;
+}
+
+
 
 .exercise{
     border-radius: 5%;
     background-color: hsl(145, 58%, 55%);
+    position: relative;
 }
+
+.exercise img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.exercise-text{
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0;
+    color: white;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid hsl(235, 46%, 20%) ;
+    text-align: left;
+}
+
+.exercise-text h3, .exercise-text h1, .exercise-text p{
+    margin-left: 20px;
+}
+
+.exercise-text h1{
+   font-size: 45px;
+   font-weight: 400;
+}
+
+
 
 .social{
     border-radius: 5%;
     background-color: hsl(264, 64%, 52%);
+    position: relative;
 }
+
+.social img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.social-text{
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0;
+    color: white;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid hsl(235, 46%, 20%) ;
+    text-align: left;
+}
+
+.social-text h3, .social-text h1, .social-text p{
+    margin-left: 20px;
+}
+
+.social-text h1{
+   font-size: 45px;
+   font-weight: 400;
+}
+
+
 
 .self-care{
     border-radius: 5%;
     background-color: hsl(43, 84%, 65%);
+    position: relative;
+}
+
+.self-care img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.self-care-text{
+    position: absolute;
+    background-color: hsl(235, 46%, 20%);
+    bottom: 0;
+    color: white;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid hsl(235, 46%, 20%) ;
+    text-align: left;
+}
+
+.self-care-text h3, .self-care-text h1, .self-care-text p{
+    margin-left: 20px;
+}
+
+.self-care-text h1{
+   font-size: 45px;
+   font-weight: 400;
 }
 
 
